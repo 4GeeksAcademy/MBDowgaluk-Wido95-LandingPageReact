@@ -9,12 +9,12 @@ import { Navbar } from "./Navbar.jsx";
 const Home = () => {
 	return (
 		<div>
-        <Navbar/>
-       <Jumbotron/>
-			<div className="container d-flex">
+        	<Navbar/>
+       		<Jumbotron/>
+			<div className="container d-flex mb-3">
 				<Card title= "Card Title" image="https://picsum.photos/seed/picsum/200" description="Some quick example text to build on the card title and make up the bulk of the card's content." buttonLabel="Go Somewhere"/>
 			</div>   
-      <Footer />
+      		<Footer />
 		</div>
 	);
 };
