@@ -12,7 +12,7 @@ export const Card = (props) =>{
             </div>
         </div>
     )
-}
+};
 
 Card.propTypes = {
     image: PropTypes.string,
@@ -21,4 +21,10 @@ Card.propTypes = {
     buttonUrl: PropTypes.string,
     buttonLabel: PropTypes.string
 
-}
+};
+
+Card.defaultProps = {
+    description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    buttonLabel: "More info",
+    buttonUrl: "https://es.react.dev/"
+  };

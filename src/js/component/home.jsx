@@ -12,7 +12,10 @@ const Home = () => {
         	<Navbar/>
        		<Jumbotron/>
 			<div className="container d-flex mb-3">
-				<Card title= "Card Title" image="https://picsum.photos/seed/picsum/200" description="Some quick example text to build on the card title and make up the bulk of the card's content." buttonLabel="Go Somewhere"/>
+				<Card title= "Instagram Profile" image="https://picsum.photos/seed/picsum/200" buttonUrl={"https://www.instagram.com/"}/>
+				<Card title= "Facebook Profile" image="https://picsum.photos/200" buttonUrl={"https://www.facebook.com/?locale=es_ES"}/>
+				<Card title= "LinkedIn Profile" image="https://picsum.photos/200/?blur"	buttonUrl={"https://www.linkedin.com/"} />
+				<Card title= "GitHub Profile" image="https://picsum.photos/id/237/200" buttonUrl={"https://github.com/"}/>
 			</div>   
       		<Footer />
 		</div>
