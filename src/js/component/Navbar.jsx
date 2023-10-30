@@ -2,9 +2,11 @@ import React from "react";
 
 export const Navbar = () => {
     return (
+      <div>
       <nav className="navbar navbar-expand-lg bg-dark">
-  <div className="container-fluid">
-    <a className="navbar-brand text-light" href="#">Start Bootstrap</a>
+      
+    <div className="container-fluid">
+    <a className="navbar-brand text-light" href="#"><i className="fab fa-react text-white"></i></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -26,5 +28,6 @@ export const Navbar = () => {
     </div>
   </div>
 </nav>
+</div>
        )
 }

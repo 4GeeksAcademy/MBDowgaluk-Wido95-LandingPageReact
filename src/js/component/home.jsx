@@ -8,7 +8,7 @@ import { Navbar } from "./Navbar.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		<div className="bg-light">
         	<Navbar/>
        		<Jumbotron/>
 			<div className="container d-flex mb-3">
